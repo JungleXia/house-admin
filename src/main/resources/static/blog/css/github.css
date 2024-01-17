@@ -1,0 +1,236 @@
+/*
+Name: Github
+Description: Github like color.
+Version: 1.0
+Author: Dai Akatsuka
+URL: http://firn.jp/
+*/
+.crayon-theme-github {
+	margin-bottom: 25px !important;
+	border: 1px solid #dedede !important;
+	background-color: #f8f8ff !important;
+	font-size: 100% !important;
+	line-height: 130% !important;
+}
+
+.crayon-theme-github .crayon-toolbar {
+	border-bottom: 1px solid #dedede !important;
+	background-color: #eee !important;
+}
+
+.crayon-theme-github .crayon-toolbar .crayon-language,
+	.crayon-theme-github .crayon-toolbar .crayon-title {
+	font-size: 80% !important;
+	color: #666 !important;
+}
+
+.crayon-theme-github .crayon-table .crayon-nums {
+	background-color: #eee !important;
+}
+
+.crayon-theme-github .crayon-table .crayon-nums-content {
+	padding-top: 5px !important;
+	padding-bottom: 3px !important;
+}
+
+.crayon-theme-github .crayon-table .crayon-num {
+	min-width: 1.2em !important;
+	border-right: 1px solid #dedede !important;
+	text-align: right !important;
+	color: #aaa !important;
+}
+
+.crayon-theme-github .crayon-pre {
+	padding-top: 5px !important;
+	padding-bottom: 3px !important;
+}
+
+.crayon-theme-github .crayon-marked-line {
+	background: #fffee2 !important;
+}
+
+.crayon-theme-github .crayon-marked-num {
+	color: #1561ac !important;
+	background: #b3d3f4 !important;
+	border-width: 1px !important;
+	border-color: #5999d9 !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-c {
+	color: #999 !important;
+	font-style: italic !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-s {
+	color: #d14 !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-p {
+	color: #b85c00 !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-ta {
+	color: #FF0000 !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-k {
+	color: teal !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-st {
+	color: #000 !important;
+	font-weight: bold !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-r {
+	color: #000 !important;
+	font-weight: bold !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-t {
+	color: #800080 !important;
+	font-weight: bold !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-m {
+	color: #800080 !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-i {
+	color: #000 !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-e {
+	color: teal !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-v {
+	color: #002D7A !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-cn {
+	color: #099 !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-o {
+	color: #006fe0 !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-sy {
+	color: #333 !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-n {
+	color: #666 !important;
+	font-style: italic;
+}
+
+.crayon-theme-github .crayon-pre .crayon-f {
+	color: #999 !important;
+}
+
+.crayon-theme-github .crayon-pre .crayon-h {
+	color: #006fe0 !important;
+}
+
+.admincss img {
+	vertical-align: middle;
+	display: inline-block;
+	border: none;
+	width: auto;
+	height: auto;
+	margin: 0;
+	position: unset;
+	border-radius: unset;
+}
+/**编辑器样式**/
+.toolbar {
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+
+.text {
+	border: 1px solid #ccc;
+	height: 200px;
+}
+/* table 样式 */
+table {
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+table td, table th {
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 3px 5px;
+}
+
+table th {
+	border-bottom: 2px solid #ccc;
+	text-align: center;
+}
+
+/* blockquote 样式 */
+blockquote {
+	display: block;
+	border-left: 8px solid #d0e5f2;
+	padding: 5px 10px;
+	margin: 10px 0;
+	line-height: 1.4;
+	font-size: 100%;
+	background-color: #f1f1f1;
+}
+
+/* code 样式 */
+code {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	padding: 3px 5px;
+	margin: 0 3px;
+}
+
+pre code {
+	display: block;
+}
+
+.article-content h2 {
+	font-size: 18px;
+	font-weight: blod;
+	margin: 20px 20px 20px 2px;
+	padding: 10px 20px 9px 10px;
+	line-height: 30px;
+	border-left: 4px solid #00a67c;
+	background-color: #fbfbfb;
+	float: left;
+	width: 95%;
+}
+
+.article-content p {
+	margin: 0 0 15px 0;
+	font: 14px Helvetica Neue, Helvetica, PingFang SC, \5FAE\8F6F\96C5\9ED1,
+		Tahoma, Arial, sans-serif;
+}
+
+.article-content img {
+	width: 100%;
+}
+
+article {
+	display: inline-block;
+	width: 100%;
+}
+
+.crayon-plain-wrap>textarea {
+	display: none
+}
+
+.crayon-expand-button:after {
+	clear: both;
+}
+
+.article-content.after {
+	clear: both;
+}
